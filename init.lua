@@ -6,5 +6,5 @@ vim.cmd("colorscheme carbonfox")
 require('lualine').setup()
 
 -- Enable the LSPs!
-vim.lsp.enable({'luals', 'basedpyright', 'rust-analyzer'})
+vim.lsp.enable({'luals', 'basedpyright', 'rust-analyzer', 'json_ls', 'ruff', 'yamlls'})
 
