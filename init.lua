@@ -6,7 +6,7 @@ vim.cmd("colorscheme carbonfox")
 require('lualine').setup()
 
 -- Enable the LSPs!
-vim.lsp.enable({'luals', 'ty', 'rust-analyzer'})
+vim.lsp.enable({'luals', 'basedpyright', 'rust-analyzer', 'ruff'})
 
 -- Use the swank new virtual lines diagnostics option!
 vim.diagnostic.config({
