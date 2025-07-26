@@ -7,7 +7,7 @@ require('lualine').setup()
 
 -- Enable the LSPs!
 vim.lsp.enable({'luals',
-                'basedpyright',
+                'jedi-language-server',
                 'rust-analyzer',
                 'ruff',
                 'ty',
