@@ -6,8 +6,8 @@ vim.cmd("colorscheme carbonfox")
 require('lualine').setup()
 
 -- Enable the LSPs!
-vim.lsp.enable({'luals',
-                'jedi-language-server',
+vim.lsp.enable({'lua_ls',
+                'jedi_language_server',
                 'rust-analyzer',
                 'ruff',
                 'ty',
