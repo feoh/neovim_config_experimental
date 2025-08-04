@@ -23,3 +23,7 @@ vim.diagnostic.config({
   }
 })
 
+
+-- lazy.nvim auto-update plugins rather than carping at me that they need updating :)
+require("config.lazy")
+vim.api.nvim_create_autocmd("VimEnter",{callback=function()require"lazy".update({show = false})end})
