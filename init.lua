@@ -11,6 +11,7 @@ vim.lsp.enable({'lua_ls',
                 'rust_analyzer',
                 'ruff',
                 'ty',
+                'yamlls',
               })
 
 -- Use the swank new virtual lines diagnostics option!
