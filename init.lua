@@ -12,6 +12,7 @@ vim.lsp.enable({'lua_ls',
                 'rust_analyzer',
                 'ruff',
                 'ty',
+                'vstls',
                 'yamlls',
               })
 
