@@ -1,4 +1,5 @@
 require("config.lazy")
+require("config.ts-lsp-config")
 require("config.kickstart-lsp-config")
 
 vim.cmd("colorscheme carbonfox")
