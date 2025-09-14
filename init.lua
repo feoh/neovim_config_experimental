@@ -13,6 +13,7 @@ vim.lsp.enable({'lua_ls',
                 'ruff',
                 'ty',
                 'vstls',
+                'vue_ls',
                 'yamlls',
               })
 
