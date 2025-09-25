@@ -8,7 +8,7 @@ require('lualine').setup()
 -- Enable the LSPs!
 vim.lsp.enable({'lua_ls',
                 'clangd',
-                'basedpylance',
+                'basedpyright',
                 'rust_analyzer',
                 'ruff',
                 'ty',
