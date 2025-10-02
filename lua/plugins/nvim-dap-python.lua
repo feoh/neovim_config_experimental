@@ -2,6 +2,7 @@
 return {
   "mfussenegger/nvim-dap-python",
   ft = "python",
+  dependencies = { "mfussenegger/nvim-dap" },
   config = function()
     local dap_python = require("dap-python")
     -- Adjust the Python path to your venv or system path
